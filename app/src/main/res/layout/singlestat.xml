@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:id="@+id/singlestat"
+    android:showDividers="middle|end|beginning"
+    android:divider="@drawable/shape"
+
+    android:layout_height="match_parent">
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="190dp"
+        android:layout_height="30dp"
+        android:minHeight="?android:attr/listPreferredItemHeight"
+        android:gravity="center_vertical"
+        android:textSize="25dp"
+        android:text="nihao"
+        android:id="@+id/user_id" />
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:minHeight="?android:attr/listPreferredItemHeight"
+        android:gravity="center_vertical"
+        android:textSize="24dp"
+        android:text="Performance"
+        android:id="@+id/user_performance" />
+
+</LinearLayout>

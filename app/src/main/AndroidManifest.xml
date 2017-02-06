@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.huanganqi.myquiz">
+
+    <uses-sdk android:minSdkVersion="18"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/juanzi"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.huanganqi.myquiz.QM_manage"
+            android:label="MyQuiz"
+            android:screenOrientation="portrait"
+
+            ></activity>
+        <activity android:name="com.example.huanganqi.myquiz.AddUser"
+            android:label="MyQuiz"
+            android:screenOrientation="portrait"
+
+            ></activity>
+        <activity android:name="com.example.huanganqi.myquiz.AddQuest"
+            android:label="MyQuiz"
+            android:screenOrientation="portrait"
+
+            ></activity>
+        <activity android:name="com.example.huanganqi.myquiz.QT_quiz"
+            android:label="MyQuiz"
+            android:screenOrientation="portrait"
+
+            ></activity>
+
+        <activity android:name="com.example.huanganqi.myquiz.transfer"
+        android:label="MyQuiz"
+        android:screenOrientation="portrait"
+
+        ></activity>
+        <activity android:name="com.example.huanganqi.myquiz.viewStat"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+
+            ></activity>
+        <activity android:name="com.example.huanganqi.myquiz.deleteStat"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+
+            ></activity>
+
+    </application>
+
+</manifest>
