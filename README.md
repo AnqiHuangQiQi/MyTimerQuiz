@@ -2,7 +2,7 @@
 
 This is an Android native application, which is used to arrange tests for target groups.     
 Two kinds of users: Quiz Manager & Quiz Taker.   
-<img src="https://github.com/AntheaHuang/MyTimerQuiz/blob/master/screenshots/login.png" width="50%" height="50%">
+<img src="https://github.com/AntheaHuang/MyTimerQuiz/blob/master/screenshots/login.png" width="20%" height="20%">
 Quiz Taker:          
   1)Each question has a predetermined time and the timer is on the top of the screen;      
   2)The quiz taker must choose an option within this time;      
